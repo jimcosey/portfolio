@@ -1,0 +1,29 @@
+#container-contain {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#about-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contain-text h1 {
+  font-size: 30px;
+}
+.contain-text {
+  display: inline-flex;
+  order: 2;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+.contain-image {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.contain-image img {
+  height: 400px;
+}
